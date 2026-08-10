@@ -1,0 +1,770 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Roboto Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./amazonStyle.css" />
+  </head>
+
+  <body>
+    <!-- Main Navbar -->
+
+    <nav
+      class="navbar navbar-expand-sm main-navbar"
+      style="background-color: #121826"
+    >
+      <div class="container-fluid">
+        <div class="row align-items-center w-100 g-0">
+          <!-- Logo -->
+          <div class="col-auto ms-2 nav-logo">
+            <a class="navbar-brand d-flex align-items-start" href="#">
+              <img
+                src="./images/1000097814-removebg-preview.png"
+                alt="Amazon Logo"
+                width="100"
+              />
+              <div class="text-white Logo-text">.in</div>
+            </a>
+          </div>
+
+          <!-- Delivery Location -->
+          <div class="col-auto location-box nav-location">
+            <div class="text-white">
+              <div class="ps-3 nav-line1">Delivering to Kannur 670003</div>
+
+              <div class="nav-line2">
+                <i class="bi bi-geo-alt"></i>
+                Update location
+              </div>
+            </div>
+          </div>
+
+          <!-- Search Bar -->
+          <div class="col-6 nav-search">
+            <div class="input-group rounded-0">
+              <!-- Category Dropdown -->
+              <button
+                class="btn btn-light dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                All
+              </button>
+
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">All catogories</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="#">Alexa Skills</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="#"> Amazon devices </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="#">Amazon Fassion </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="#">Amazon fresh</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="#">Amazon fresh meat</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="#">Amazon pharmacy</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="#">Appliances</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="#">Apps $ Games</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="#">Audible Audio Books</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="#">Baby</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="#">Beauty</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="#">Books</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="#">Car & Motorbikes</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="#">Clothing & Accessories</a>
+                </li>
+
+                
+              </ul>
+
+              <!-- Search Input -->
+              <input
+                type="search"
+                class="form-control search-field"
+                placeholder="Search Amazon.in"
+                aria-label="Search"
+              />
+
+              <!-- Search Button -->
+              <button class="btn btn-warning search-button" type="button">
+                <i class="bi bi-search"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Language -->
+          <div class="col-auto language-box mx-2 nav-lang">
+            <div class="text-white d-flex">
+              <img
+                src="./images/icons8-india-48.png"
+                alt="India Flag"
+                class="india-logo"
+              />
+
+              <div class="d-flex">
+                <div class="Lang-txt">EN</div>
+                <i class="bi bi-caret-down-fill down-arrow-head-lang"></i>
+              </div>
+            </div>
+
+            <!-- Language Popover -->
+            <div class="lang-popover">
+              <p class="lang-title">Change language</p>
+
+              <label class="lang-option">
+                <input type="radio" name="lang" value="en" checked />
+                English - EN
+              </label>
+
+              <hr />
+
+              <label class="lang-option">
+                <input type="radio" name="lang" value="hi" />
+                हिन्दी - HI
+              </label>
+
+              <label class="lang-option">
+                <input type="radio" name="lang" value="ta" />
+                தமிழ் - TA
+              </label>
+
+              <label class="lang-option">
+                <input type="radio" name="lang" value="te" />
+                తెలుగు - TE
+              </label>
+
+              <label class="lang-option">
+                <input type="radio" name="lang" value="kn" />
+                ಕನ್ನಡ - KN
+              </label>
+
+              <label class="lang-option">
+                <input type="radio" name="lang" value="ml" />
+                മലയാളം - ML
+              </label>
+
+              <label class="lang-option">
+                <input type="radio" name="lang" value="bn" />
+                বাংলা - BN
+              </label>
+
+              <label class="lang-option">
+                <input type="radio" name="lang" value="mr" />
+                मराठी - MR
+              </label>
+
+              <hr />
+
+              <div class="lang-country">🇮🇳 You are shopping on Amazon.in</div>
+
+              <a href="#" class="lang-change-region"> Change country/region </a>
+            </div>
+          </div>
+
+          <!-- Accounts & Lists -->
+          <div class="col-auto mx-2 accounts-lists nav-account">
+            <div class="text-white">
+              <div class="nav-line1">Hello, sign in</div>
+
+              <div class="d-flex nav-line2">
+                <div>Accounts & Lists</div>
+                <i class="bi bi-caret-down-fill down-arrow-head"></i>
+              </div>
+            </div>
+
+            <div class="dropdown-menu account-panel p-4">
+              <div class="text-center mb-3">
+                <button class="btn signin-btn">Sign in</button>
+
+                <p
+                  class="new-customer-text mt-2 d-flex justify-content-center align-items-center gap-2"
+                >
+                  New customer?
+                  <a href="#">Start here.</a>
+                </p>
+              </div>
+
+              <div class="d-flex gap-5">
+                <div class="flex-fill">
+                  <h4 class="col-heading">Your Lists</h4>
+
+                  <a href="#">Create a Wish List</a>
+                  <a href="#">Wish from Any Website</a>
+                  <a href="#">Baby Wishlist</a>
+                  <a href="#">Discover Your Style</a>
+                  <a href="#">Explore Showroom</a>
+                </div>
+
+                <div class="flex-fill">
+                  <h4 class="col-heading">Your Account</h4>
+
+                  <a href="#">Your Account</a>
+                  <a href="#">Your Orders</a>
+                  <a href="#">Your Wish List</a>
+                  <a href="#">Keep shopping for</a>
+                  <a href="#">Your Recommendations</a>
+                  <a href="#">Your Prime Membership</a>
+                  <a href="#">Your Prime Video</a>
+                  <a href="#">Your Subscribe & Save Items</a>
+                  <a href="#">Memberships & Subscriptions</a>
+                  <a href="#">Your Seller Account</a>
+                  <a href="#">Manage Your Content and Devices</a>
+                  <a href="#">Your Music Library</a>
+                  <a href="#"> Register for a free Business Account </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Returns & Orders -->
+          <div class="col-auto mx-2 nav-returns">
+            <div class="text-white">
+              <div class="nav-line1">Returns</div>
+
+              <div class="d-flex">
+                <div class="nav-line2">& Orders</div>
+                <i class="bi bi-caret-down-fill down-arrow-head"></i>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cart -->
+          <div class="col-auto mx-2 nav-cart">
+            <div class="text-white d-flex align-items-center">
+              <i class="bi bi-cart2 cart-icon"></i>
+              <div class="nav-line2-cart">Cart</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Second Navigation -->
+
+    <ul class="nav nav-tabs d-flex flex-nowrap ">
+      <!-- All -->
+      <li class="nav-item">
+        <button
+          class="btn offcanvas-button rounded-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasScrolling"
+          aria-controls="offcanvasScrolling"
+        >
+          <i class="bi bi-list offcanvas-button-icon"></i>
+          All
+        </button>
+
+        <div
+          class="offcanvas offcanvas-start"
+          data-bs-scroll="true"
+          data-bs-backdrop="true"
+          tabindex="-1"
+          id="offcanvasScrolling"
+          aria-labelledby="offcanvasScrollingLabel"
+        >
+          <div class="offcanvas-header offcanvas-header-amazon">
+            <div class="offcanvas-avatar">
+              <i class="bi bi-person-circle"></i>
+            </div>
+            <h5 class="offcanvas-title flex-fill" id="offcanvasScrollingLabel">
+              Hello, sign in
+            </h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <div class="offcanvas-body p-0">
+            <h6 class="offcanvas-section-title">Trending</h6>
+            <a href="#" class="offcanvas-menu-item">Bestsellers</a>
+            <a href="#" class="offcanvas-menu-item">New Releases</a>
+
+            <hr class="offcanvas-divider" />
+
+            <h6 class="offcanvas-section-title">Digital Content and Devices</h6>
+            <a href="#" class="offcanvas-menu-item"
+              >Echo & Alexa <i class="bi bi-chevron-right"></i
+            ></a>
+            <a href="#" class="offcanvas-menu-item"
+              >Fire TV <i class="bi bi-chevron-right"></i
+            ></a>
+            <a href="#" class="offcanvas-menu-item"
+              >Kindle E-Readers & eBooks <i class="bi bi-chevron-right"></i
+            ></a>
+            <a href="#" class="offcanvas-menu-item"
+              >Audible Audiobooks <i class="bi bi-chevron-right"></i
+            ></a>
+            <a href="#" class="offcanvas-menu-item"
+              >Amazon Prime Video <i class="bi bi-chevron-right"></i
+            ></a>
+            <a href="#" class="offcanvas-menu-item"
+              >Amazon Music <i class="bi bi-chevron-right"></i
+            ></a>
+
+            <hr class="offcanvas-divider" />
+
+            <h6 class="offcanvas-section-title">Shop by Category</h6>
+            <a href="#" class="offcanvas-menu-item"
+              >Mobiles, Computers <i class="bi bi-chevron-right"></i
+            ></a>
+            <a href="#" class="offcanvas-menu-item"
+              >TV, Appliances, Electronics <i class="bi bi-chevron-right"></i
+            ></a>
+            <a href="#" class="offcanvas-menu-item"
+              >Men's Fashion <i class="bi bi-chevron-right"></i
+            ></a>
+            <a href="#" class="offcanvas-menu-item"
+              >Women's Fashion <i class="bi bi-chevron-right"></i
+            ></a>
+            <a href="#" class="offcanvas-see-all"
+              >See all <i class="bi bi-chevron-down"></i
+            ></a>
+
+            <hr class="offcanvas-divider" />
+
+            <h6 class="offcanvas-section-title">Programs & Features</h6>
+            <a href="#" class="offcanvas-menu-item"
+              >Gift Cards & Mobile Recharges <i class="bi bi-chevron-right"></i
+            ></a>
+            <a href="#" class="offcanvas-menu-item-plain">Amazon Launchpad</a>
+            <a href="#" class="offcanvas-menu-item-plain">Amazon Business</a>
+            <a href="#" class="offcanvas-menu-item-plain"
+              >Handloom and Handicrafts</a
+            >
+            <a href="#" class="offcanvas-see-all"
+              >See all <i class="bi bi-chevron-down"></i
+            ></a>
+
+            <hr class="offcanvas-divider" />
+
+            <h6 class="offcanvas-section-title">Help & Settings</h6>
+            <a href="#" class="offcanvas-menu-item-plain">Your Account</a>
+            <a href="#" class="offcanvas-menu-item-plain">Customer Service</a>
+            <a href="#" class="offcanvas-menu-item-plain">Sign in</a>
+          </div>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <button class="btn nav-item-button">Fresh</button>
+      </li>
+
+      <li class="nav-item">
+        <button class="btn nav-item-button">MX Player</button>
+      </li>
+
+      <li class="nav-item">
+        <button class="btn nav-item-button">Sell</button>
+      </li>
+
+      <li class="nav-item">
+        <button class="btn nav-item-button">Bestsellers</button>
+      </li>
+
+      <li class="nav-item">
+        <button class="btn nav-item-button">Today's Deals</button>
+      </li>
+
+      <li class="nav-item">
+        <button class="btn nav-item-button">Mobiles</button>
+      </li>
+
+      <li class="nav-item">
+        <button class="btn nav-item-button">New Releases</button>
+      </li>
+
+      <!-- Prime -->
+      <li class="nav-item nav-prime">
+        <button class="btn nav-item-button">
+          Prime
+          <i class="bi bi-caret-down-fill down-arrow-head-lang"></i>
+        </button>
+
+        <div class="dropdown-menu prime-card p-3">
+          <h3 class="prime-heading">
+            Shopping plans
+            <br />
+            starting at ₹399/year
+          </h3>
+
+          <p class="prime-subtext">
+            Get FREE same/1-day delivery, Prime offers & more
+          </p>
+
+          <div class="prime-banner">
+            <img
+              src="https://m.media-amazon.com/images/I/31yheAotKHL.png"
+              alt="Prime Shopping"
+              class="img-fluid rounded"
+            />
+          </div>
+
+          <button class="btn prime-join-btn w-100 mt-3">Join Prime Now</button>
+
+          <div class="prime-logo mt-2">amazon <span>prime</span></div>
+        </div>
+      </li>
+
+      <li class="nav-item p-0">
+        <button class="btn nav-item-button">Amazon Pay</button>
+      </li>
+
+      <li class="nav-item">
+        <button class="btn nav-item-button">Electronics</button>
+      </li>
+
+      <li class="nav-item">
+        <button class="btn nav-item-button">Customer Service</button>
+      </li>
+
+      <li class="nav-item">
+        <button class="btn nav-item-button">Home & Kitchen</button>
+      </li>
+
+      <li class="nav-item">
+        <button class="btn nav-item-button">Fashion</button>
+      </li>
+
+      <li class="nav-item">
+        <button class="btn nav-item-button">Computers</button>
+      </li>
+
+      <li class="nav-item">
+        <button class="btn nav-item-button">Toys & Games</button>
+      </li>
+    </ul>
+
+    <!-- Third Nav -->
+
+    <div
+      class="nav d-flex justify-content-between align-items-center third-nav"
+    >
+      <div class="nav-left-side-text">
+        <span class="nav-left-side-text1 ps-2"
+          >1-48 of over 60,000 results for</span
+        >
+        <span class="nav-left-side-text2">"Laptop"</span>
+      </div>
+      <div class="nav-right-side-text">
+        <button
+          class="btn nav-right-side-button d-flex justify-content-center align-items-center me-2"
+        >
+          Sort by: Featured<i class="bi bi-chevron-down"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Body Part -->
+
+    <div class="container-fluid body-part row g-0">
+      <!-- body left side  -->
+
+      <div class="product-filter-col body-part-left-side col-lg-2 col-md-3">
+        <div class="p-3">
+          <!-- Category -->
+          <h6 class="filter-heading">Populor shopping deals</h6>
+          <ul class="list-unstyled filter-list mb-3 text-black">
+            <li><a href="#">Core I5</a></li>
+            <li><a href="#">Core I3</a></li>
+            <li><a href="#">16gb Ram </a></li>
+            <li><a href="#">Ryzen 5</a></li>
+            <li>
+              <a href="#" class="text-info-emphasis"
+                ><i class="bi bi-chevron-down fw-bold"></i>See more</a
+              >
+            </li>
+          </ul>
+
+          <!-- Customer Review -->
+          <h6 class="filter-heading">Customer Review</h6>
+          <ul class="list-unstyled filter-list mb-3">
+            <li>
+              <a href="#">
+                <span class="text-warning fs-5"
+                  >★★★★<span class="text-muted">☆</span></span
+                >
+                & Up
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="text-warning fs-5"
+                  >★★★<span class="text-muted">☆☆</span></span
+                >
+                & Up
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="text-warning fs-5"
+                  >★★<span class="text-muted">☆☆☆</span></span
+                >
+                & Up
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="text-warning fs-5"
+                  >★<span class="text-muted">☆☆☆☆</span></span
+                >
+                & Up
+              </a>
+            </li>
+          </ul>
+
+          <!-- Brand -->
+          <h6 class="filter-heading">Brand</h6>
+          <ul class="list-unstyled filter-list mb-2 ms-3">
+            <li class="form-check">
+              <input class="form-check-input" type="checkbox" id="milton" />
+              <label class="form-check-label" for="milton">HP</label>
+            </li>
+            <li class="form-check">
+              <input class="form-check-input" type="checkbox" id="cello" />
+              <label class="form-check-label" for="cello">Asus</label>
+            </li>
+            <li class="form-check">
+              <input class="form-check-input" type="checkbox" id="boldfit" />
+              <label class="form-check-label" for="boldfit">Acer</label>
+            </li>
+            <li class="form-check">
+              <input class="form-check-input" type="checkbox" id="borosil" />
+              <label class="form-check-label" for="borosil">Lenovo</label>
+            </li>
+            <li class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="amazonbrand"
+              />
+              <label class="form-check-label" for="amazonbrand">Dell</label>
+            </li>
+            <li class="form-check">
+              <input class="form-check-input" type="checkbox" id="pigeon" />
+              <label class="form-check-label" for="pigeon">MSI</label>
+            </li>
+            <li class="form-check">
+              <input class="form-check-input" type="checkbox" id="speedex" />
+              <label class="form-check-label" for="speedex">Samsung</label>
+            </li>
+          </ul>
+          <a href="#" class="see-more mb-3 d-block"
+            ><i class="bi bi-chevron-down"></i>See more</a
+          >
+
+          <!-- Price -->
+          <h6 class="filter-heading">Price</h6>
+          <ul class="list-unstyled filter-list mb-2">
+            <li><a href="#">Upto ₹60,000</a></li>
+            <li><a href="#">₹60,000 - ₹93,000</a></li>
+            <li><a href="#">₹93,000 - ₹155,000</a></li>
+            <li><a href="#">₹155,000 - ₹195,000</a></li>
+            <li><a href="#">Over ₹195,000</a></li>
+          </ul>
+
+          <div class="d-flex align-items-center gap-1 mb-3">
+            <input
+              type="text"
+              class="form-control price-input"
+              placeholder="₹ Min"
+            />
+            <span>-</span>
+            <input
+              type="text"
+              class="form-control price-input"
+              placeholder="₹ Max"
+            />
+            <button class="btn btn-light go-btn">Go</button>
+          </div>
+
+          <!-- Deals & Discounts -->
+          <h6 class="filter-heading">Deals & Discounts</h6>
+        </div>
+      </div>
+
+      <!-- Body Right Side -->
+
+      <div class="product-view col-12 col-md-9 col-lg-10">
+        <div class="product-heading my-3 mx-3">
+          <span class="product-heading-main fs-4">results</span><br />
+          <span class="product-heading-sub fs-6 text-secondary"
+            >Check each product page for other buying options.</span
+          >
+        </div>
+
+        <!-- Product Card 1 -->
+
+        <div class="card ms-2 my-3">
+          <div class="row">
+            <div
+              class="product-image col-lg-3 col-md-4 col-12 d-flex justify-content-center align-items-center bg-secondary.bg-gradient"
+            >
+              <img
+                src="https://m.media-amazon.com/images/I/616Jpqwdp3L._AC_UY436_FMwebp_QL65_.jpg"
+                alt=""
+                style="width: 100%"
+                class="p-3"
+              />
+            </div>
+            <div class="col-lg-9 col-md-8 col-12">
+              <div class="card-body">
+                <h5 class="card-title">
+                  ASUS Chromebook CX1405 (2026), Smartchoice, Intel N50
+                  Processor, Intel UHD iGPU, 8GB RAM, 128GB SSD, FHD, 14" (35.5
+                  cm), Chrome OS, Pure Grey, 1.39 Kg, CX1405CTA-...
+                </h5>
+                <div class="product-rating fs-6">
+                  <span class="rating">3.2</span>
+                  <span class="fullstar text-warning fs-5">★★★</span
+                  ><span class="emptystar fs-5">☆☆</span
+                  ><span class="count text-primary-emphasis">(22)</span>
+                </div>
+                <p class="card-text my-2">200+ bought in past month</p>
+                <div class="price-div">
+                  <i class="bi bi-currency-rupee"></i
+                  ><span class="price fs-3">27,990</span>
+                </div>
+                <span class="offer text-secondary-emphasis my-2"
+                  >Flat INR 500 Off on Select Bank Cards</span
+                >
+                <div class="delivary">
+                  <span class="delivary-date">FREE delivery</span
+                  ><span class="fw-bold delivary-date"> Mon, 17 Aug</span>
+                </div>
+                <a href="#" class="btn btn-warning mt-3 rounded-5"
+                  >Add to Cart</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product Card 1 -->
+
+        <div class="card my-3 ms-2">
+          <div class="row">
+            <div
+              class="product-image col-lg-3 col-md-4 col-12 d-flex justify-content-center align-items-center bg-secondary.bg-gradient"
+            >
+              <img
+                src="https://m.media-amazon.com/images/I/71F8TUSryhL._AC_UY436_FMwebp_QL65_.jpg"
+                alt=""
+                style="width: 100%"
+                class="p-3"
+              />
+            </div>
+            <div class="col-lg-9 col-md-8 col-12">
+              <div class="card-body">
+                <h5 class="card-title">
+                  EBook 11.6" HD Laptop | Best Student & Office Work Laptop |
+                  Celeron N4020 | 4GB DDR4 | 128GB eMMC + M.2 SSD Expandable
+                  Slot | Win 11 Home 31Wh Battery | UHD Graphic...
+                </h5>
+                <div class="product-rating fs-6">
+                  <span class="rating">3.2</span>
+                  <span class="fullstar text-warning fs-5">★★★</span
+                  ><span class="emptystar fs-5">☆☆</span
+                  ><span class="count text-primary-emphasis">(22)</span>
+                </div>
+                <p class="card-text my-2">200+ bought in past month</p>
+                <div class="price-div">
+                  <i class="bi bi-currency-rupee"></i
+                  ><span class="price fs-3">10,990</span>
+                </div>
+                <span class="offer text-secondary-emphasis my-2"
+                  >Flat INR 500 Off on Select Bank Cards</span
+                >
+                <div class="delivary">
+                  <span class="delivary-date">FREE delivery</span
+                  ><span class="fw-bold delivary-date"> Mon, 17 Aug</span>
+                </div>
+                <a href="#" class="btn btn-warning mt-3 rounded-5"
+                  >Add to Cart</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
